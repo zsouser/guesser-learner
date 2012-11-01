@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DecisionTreeNode()
+comment0.text=\n\ No-argument\ constructor\n
+comment1.params=value\ yes\ no
+comment1.target=DecisionTreeNode(java.lang.String,\ DecisionTreeNode,\ DecisionTreeNode)
+comment1.text=\n\ Constructor\ with\ paramaters\n\ \n\ @param\ \ \ value\ \ \ the\ value\ of\ the\ node\n\ @param\ \ \ yes\ \ \ \ \ the\ "yes"\ child\n\ @param\ \ \ no\ \ \ \ \ \ the\ "no"\ child\n
+comment2.params=
+comment2.target=DecisionTreeNode\ getNoLink()
+comment2.text=\n\ Accessor\ for\ the\ "no"\ link\n\ \n\ @return\ \ the\ DecisionTreeNode\ "no"\ link\n
+comment3.params=node
+comment3.target=void\ setNoLink(DecisionTreeNode)
+comment3.text=\n\ Mutator\ for\ the\ "no"\ link\n\ \n\ @param\ \ \ node\ \ \ \ The\ DecisionTreeNode\ that\ will\ be\ the\ "no"\ link\n
+comment4.params=
+comment4.target=DecisionTreeNode\ getYesLink()
+comment4.text=\n\ Accessor\ for\ the\ "yes"\ link\n\ \n\ @return\ \ the\ DecisionTreeNode\ "yes"\ link\n
+comment5.params=node
+comment5.target=void\ setYesLink(DecisionTreeNode)
+comment5.text=\n\ Mutator\ for\ the\ "yes"\ link\n\ \n\ @param\ \ \ node\ \ \ \ The\ DecisionTreeNode\ that\ will\ be\ the\ "yes"\ link\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ toString\ implementation\ for\ the\ DecisionTreeNode\n\ \n\ @return\ \ the\ String\ representation\ of\ the\ node\n
+numComments=7

@@ -1,17 +1,18 @@
 
 /**
- * Write a description of class ThingNode here.
+ * ThingNode - a DecisionTreeNode with no children and a value
+ * that represents the answer
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Zach Souser
+ * @version 1.0
  */
 public class ThingNode extends DecisionTreeNode
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+   
     /**
      * Constructor for objects of class ThingNode
+     * 
+     * Calls the parent constructor with null children
      */
     public ThingNode(String thing)
     {
@@ -19,14 +20,19 @@ public class ThingNode extends DecisionTreeNode
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Get the thing represented by this node
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @return     The value fo the node
      */
     public String getThing() {
         return this.getValue();
     }
+    
+    /**
+     * toString implementation for the ThingNode
+     * 
+     * @return  The String answer for this node
+     */
     
     public String toString() {
         return this.getValue();

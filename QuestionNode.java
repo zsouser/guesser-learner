@@ -1,31 +1,40 @@
 
 /**
- * Write a description of class QuestionNode here.
+ * QuestionNode - a DecisionTreeNode that has a question 
+ * and possible ThingNode answers.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Zach Souser
+ * @version 1.0
  */
 public class QuestionNode extends DecisionTreeNode
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
     /**
-     * Constructor for objects of class QuestionNode
+     * Constructor for objects of class QuestionNode.
+     * Calls the parent constructor
+     * 
+     * @param   question    The text of the question
+     * @param   noAnswer    The DecisionTreeNode of the no answer
+     * @param   yesAnswer   The DecisionTreeNode of the yes answer
      */
+    
     public QuestionNode(String question, DecisionTreeNode noAnswer, DecisionTreeNode yesAnswer) {
         super(question,noAnswer,yesAnswer);
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Accessor method for the question
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @return  The question for this node
      */
     public String getQuestion() {
         return this.getValue();
     }
+    
+    /**
+     * toString implementation
+     * 
+     * @return  The string for a QuestionNode
+     */
     
     public String toString() {
         return this.getValue();

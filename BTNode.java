@@ -5,7 +5,7 @@ import java.io.Serializable;
  * mutator methods within
  * 
  * @author Zach Souser 
- * @version 0.1
+ * @version 1.0
  */
 public class BTNode<T> implements Serializable {
     // instance variables - replace the example below with your own
@@ -117,8 +117,20 @@ public class BTNode<T> implements Serializable {
      * @return the String representation of the BTNode
      */
     
-    public String toString()
-    {
+    public String toString() {
         return "[" + this.left + "|" + this.value + "|" + this.right + "]";
+    }
+    
+    /**
+     * equals method for BTNode
+     * 
+     * @param   node    the node to be compared to this
+     * @return  true if node is the same, false if not
+     */
+    
+    public boolean equals(BTNode<T> node) {
+        return node.getValue() == this.getValue() && 
+               node.getLeftChild() == this.getLeftChild() && 
+               node.getRightChild() == this.getRightChild();
     }
 }

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ getQuestionTest()
+comment0.text=\n\ Test\ the\ getQuestion\ functionality.\ \n\ \n\ Since\ getQuestion\ overwrites\ getValue,\ this\ tests\ getValue\n\ from\ DecisionTreeNode\ as\ well.\n
+comment1.params=
+comment1.target=void\ getLinkTest()
+comment1.text=\n\ Test\ the\ LinkTest\ functionality.\n\ \n\ Both\ yes\ and\ no\ links\ are\ tested,\ and\ since\ DecisionTreeNode's\n\ getLeftChild\ and\ getRightChild\ are\ overwritten\ by\ these\ methods\ \n\ they\ are\ tested\ as\ well\n
+numComments=2

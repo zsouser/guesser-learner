@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=question\ noAnswer\ yesAnswer
+comment0.target=QuestionNode(java.lang.String,\ DecisionTreeNode,\ DecisionTreeNode)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ QuestionNode.\n\ Calls\ the\ parent\ constructor\n\ \n\ @param\ \ \ question\ \ \ \ The\ text\ of\ the\ question\n\ @param\ \ \ noAnswer\ \ \ \ The\ DecisionTreeNode\ of\ the\ no\ answer\n\ @param\ \ \ yesAnswer\ \ \ The\ DecisionTreeNode\ of\ the\ yes\ answer\n
+comment1.params=
+comment1.target=java.lang.String\ getQuestion()
+comment1.text=\n\ Accessor\ method\ for\ the\ question\n\ \n\ @return\ \ The\ question\ for\ this\ node\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ toString\ implementation\n\ \n\ @return\ \ The\ string\ for\ a\ QuestionNode\n
+numComments=3
