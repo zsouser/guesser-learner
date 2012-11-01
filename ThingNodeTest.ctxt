@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=void\ thingTest()
-comment0.text=\n\ Only\ test\ for\ ThingNode\n\ \n\ Functionality\ is\ very\ straightforward.\n\ \n\ Tests\ the\ value,\ and\ whether\ left\ and\ right\n\ children\ are\ null\n
-numComments=1
